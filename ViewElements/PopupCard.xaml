@@ -9,6 +9,18 @@
     xmlns:ui="clr-namespace:Xe.AcrylicView;assembly=Xe.AcrylicView"
     CloseWhenBackgroundIsClicked="True">
 
+    <!--<mopups:PopupPage.Animation>
+
+        <mopupsanim:ScaleAnimation
+            DurationIn="0"
+            EasingIn="QuadraticOut"
+            PositionIn="Center"
+            PositionOut="Center"
+            ScaleIn="1"
+            ScaleOut="0.7" />
+
+    </mopups:PopupPage.Animation>-->
+
     <ui:AcrylicView
         EffectStyle="Custom"
         HorizontalOptions="Center"
