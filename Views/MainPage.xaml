@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="RingOfFire.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:elements="clr-namespace:RingOfFire.ViewElements"
+    xmlns:models="clr-namespace:RingOfFire.Models"
+    xmlns:ui="clr-namespace:Xe.AcrylicView;assembly=Xe.AcrylicView"
+    xmlns:vm="clr-namespace:RingOfFire.ViewModels"
+    x:DataType="vm:MainViewModel">
+
+    <HorizontalStackLayout
+        HorizontalOptions="CenterAndExpand"
+        Spacing="15"
+        VerticalOptions="CenterAndExpand">
+
+        <VerticalStackLayout VerticalOptions="Center">
+
+            <elements:LabelCardCounter Rotation="180" Text="{Binding DeckCount}" FontSize="50" />
+
+            <ImageButton
+                Command="{Binding PlayCardCommand}"
+                HeightRequest="300"
+                Source="{Binding TopCard.BackURL}" />
+
+            <elements:LabelCardCounter Rotation="0" Text="{Binding DeckCount}" FontSize="50" />
+
+        </VerticalStackLayout>
+
+        <VerticalStackLayout VerticalOptions="Center">
+
+            <elements:LabelCardCounter Rotation="180" Text="{Binding PlayedDeckCount}" FontSize="50" />
+
+            <Image
+                HeightRequest="300"
+                MinimumWidthRequest="200"
+                Source="{Binding LastPlayedCard.ImageURL}" />
+
+            <elements:LabelCardCounter Rotation="0" Text="{Binding PlayedDeckCount}" FontSize="50" />
+
+        </VerticalStackLayout>
+
+    </HorizontalStackLayout>
+
+
+</ContentPage>

@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34804.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RingOfFire", "RingOfFire.csproj", "{164F9B3E-A2C8-4EC8-B896-A7193FE9F576}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{164F9B3E-A2C8-4EC8-B896-A7193FE9F576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164F9B3E-A2C8-4EC8-B896-A7193FE9F576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164F9B3E-A2C8-4EC8-B896-A7193FE9F576}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{164F9B3E-A2C8-4EC8-B896-A7193FE9F576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164F9B3E-A2C8-4EC8-B896-A7193FE9F576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{164F9B3E-A2C8-4EC8-B896-A7193FE9F576}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BC7F573-2A70-4EB6-A0A6-29BC8B13CF61}
+	EndGlobalSection
+EndGlobal
